@@ -2,7 +2,7 @@ Voici un exercice pour pratiquer le HTML, le CSS, les animations et le javascrip
 
 Si vous ne l'aviez pas encore fait, créez un compte sur codepen : https://codepen.io/
 
-# Exercice 1 : Menu Burger
+# Exercice: créer un Menu Burger
 
 - Allez sur ce pen : https://codepen.io/guillaumeferrari/pen/ExyWZMW
 
@@ -34,4 +34,4 @@ Vous devez avoir quelque chose comme ça :
 
 - En javascript, faire en sorte que lorsque l'on clique sur `MENU`, la classe `menu_ouvert` soit ajoutée sur `div.container` et lorsque l'on clique sur `FERMER` la classe `menu_ouvert` soit supprimée de `div.container`.
 
-Après cette étape vous devriez avoir un menu burger fonctionnel.
+- Après cette étape vous devriez avoir un menu burger fonctionnel. Nous allons maintenant juste rajouter une animation de fondu lorsqu'on affiche ou ferme le menu. Pour que cela fonctionne, vous ne devez pas utiliser `display: none` pour cacher le menu, mais une combinaison de `visibility: hidden;` et `opacity: 0;`
