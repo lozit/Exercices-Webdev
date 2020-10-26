@@ -2,7 +2,7 @@ Voici un exercice pour pratiquer le HTML, le CSS, les animations et le javascrip
 
 Si vous ne l'aviez pas encore fait, créez un compte sur codepen : https://codepen.io/
 
-# Exercice 1
+# Exercice 1 : Menu Burger
 
 - Allez sur ce pen : https://codepen.io/guillaumeferrari/pen/ExyWZMW
 
