@@ -18,7 +18,7 @@ Voici un exercice pour pratiquer le javascript et la manipulation du DOM.
 
 - Pour chaque question, Si on a répondu juste, le texte de la réponse et le background de la lettre se mettent en vert. On ajoute à la fin de la ligne le texte suitant : (juste)
 
-- Pour chaque question, Si on a répondu faux, le texte de la réponse et le background de la lettre se mettent en rouge. On ajoute à la fin de la ligne le texte suitant : (faux)
+- Pour chaque question, Si on a répondu faux, le texte de la réponse et le background de la lettre se mettent en rouge. On ajoute à la fin de la ligne le texte suitant : (faux). Le texte de la ligne est barré.
 
 - En dessous de la question on affiche un complément d'information. Voir le site d'Alsacréations pour récupérer le texte.
 
