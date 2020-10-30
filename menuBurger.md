@@ -6,7 +6,7 @@ Si vous ne l'aviez pas encore fait, créez un compte sur codepen : https://codep
 
 - Allez sur ce pen : https://codepen.io/guillaumeferrari/pen/ExyWZMW
 
-![Départ](./medias/images/start.png)
+![Départ](./medias/images/menuBurger_start.png)
 
 - copiez-le sur votre propre compte en cliquant sur `fork` en bas à droite de l'écran. Vous pouvez maintenant le modifier et l'enregistrer.
 
@@ -26,7 +26,7 @@ Si vous ne l'aviez pas encore fait, créez un compte sur codepen : https://codep
 
 Vous devez avoir quelque chose comme ça :
 
-![Première étape](./medias/images/etape1.png)
+![Première étape](./medias/images/menuBurger_menuOuvert.png)
 
 - Ajouter la classe `menu_ouvert` à la div qui a la classe `container`
 
