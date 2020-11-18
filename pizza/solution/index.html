@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pizza</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page">
+      <ul>
+        <li data-prix="8" data-ref="reine" data-id="1">
+          <span class="gauche"><strong>Reine</strong> : Tomate, jambon, fromage, olives</span>
+          <span class="droite"><span class="prix">8€</span> <span class="moins">-</span> <span class="qt">0</span> <span class="plus">+</span> <span class="totalligne">0</span>€</span>
+        </li>
+        <li data-prix="8" data-ref="reineblanche" data-id="2">
+          <span class="gauche"><strong>Reine Blanche</strong> : crème, jambon, fromage, olives</span>
+          <span class="droite"><span class="prix">8€</span> <span class="moins">-</span> <span class="qt">0</span> <span class="plus">+</span> <span class="totalligne">0</span>€</span>
+        </li>
+        <li data-prix="9" data-ref="napolitaine" data-id="3">
+          <span class="gauche"><strong>Napolitaine</strong> : tomate, fromage, anchois, olives</span>
+          <span class="droite"><span class="prix">9€</span> <span class="moins">-</span> <span class="qt">0</span> <span class="plus">+</span> <span class="totalligne">0</span>€</span>
+        </li>
+        <li data-prix="10" data-ref="estoril" data-id="4">
+          <span class="gauche"><strong>Estoril</strong> : tomate, fromage, chorizo, olives</span>
+          <span class="droite"><span class="prix">10€</span> <span class="moins">-</span> <span class="qt">0</span> <span class="plus">+</span> <span class="totalligne">0</span>€</span>
+        </li>
+        <li data-prix="11" data-ref="aubergine" data-id="5">
+          <span class="gauche"><strong>Aubergine</strong> : tomate, fromage, aubergine, huile au basilic, olives</span>
+          <span class="droite"><span class="prix">11€</span> <span class="moins">-</span> <span class="qt">0</span> <span class="plus">+</span> <span class="totalligne">0</span>€</span>
+        </li>
+        <li data-prix="11" data-ref="royale" data-id="6">
+          <span class="gauche"><strong>Royale</strong> : tomate, jambon, fromage, champignons, olives</span>
+          <span class="droite"><span class="prix">11€</span> <span class="moins">-</span> <span class="qt">0</span> <span class="plus">+</span> <span class="totalligne">0</span>€</span>
+        </li>
+        <li data-prix="12" data-ref="speciale" data-id="7">
+          <span class="gauche"><strong>Spéciale</strong> : tomate, fromage, chorizo, merguez, olives</span>
+          <span class="droite"><span class="prix">12€</span> <span class="moins">-</span> <span class="qt">0</span> <span class="plus">+</span> <span class="totalligne">0</span>€</span>
+        </li>
+      </ul>
+      <div class="total">
+        <div>
+          <p>TOTAL : <span id="total">0</span>€</p>
+          <button>Payer Maintenant</button>
+        </div>
+      </div>
+    </div>
+    <script src="cart.js"></script>
+  </body>
+</html>

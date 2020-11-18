@@ -1,0 +1,79 @@
+.page {
+  width: 80%;
+  margin: auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  width: 100%;
+  background-image: url(./ligne.svg);
+  background-repeat: repeat-x;
+  background-position-y: 40%;
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+}
+
+.gauche {
+  background-color: white;
+  padding-right: 10px;
+}
+
+.droite {
+  background-color: white;
+  padding-left: 10px;
+}
+
+.prix {
+  padding-right: 10px;
+}
+
+.totalligne {
+  padding-left: 10px;
+  width: 30px;
+  display: inline-block;
+  text-align: right;
+}
+
+.qt {
+  background-color: lightskyblue;
+  padding: 5px;
+  width: 30px;
+  display: inline-block;
+  text-align: center;
+}
+
+.plus,
+.moins {
+  font-weight: bold;
+  font-size: large;
+  cursor: pointer;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  user-select: none;
+}
+
+.plus:hover,
+.moins:hover {
+  color: rgb(102, 102, 102);
+}
+
+.total {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#total {
+  width: 30px;
+  display: inline-block;
+  text-align: right;
+}
+
+button {
+  display: none;
+}
