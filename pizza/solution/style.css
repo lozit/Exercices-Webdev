@@ -63,17 +63,14 @@ li {
   color: rgb(102, 102, 102);
 }
 
-.total {
-  display: flex;
-  justify-content: flex-end;
-}
-
-#total {
-  width: 30px;
-  display: inline-block;
-  text-align: right;
-}
-
-button {
+#commande {
   display: none;
+}
+
+#description {
+  width: 80%;
+}
+
+#amount {
+  text-align: right;
 }
