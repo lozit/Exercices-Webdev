@@ -3,7 +3,7 @@ Voici un exercice pour pratiquer le javascript et la manipulation du DOM.
 # Exercice: créer un formulaire de commande de Pizza.
 
 - Nous allons créer une liste de pizzas, avec le prix et la composition de chaque pizza. Au bout de la ligne, on peut choisir la quantité en cliquant sur des boutons + et -
-  ![Première étape](./medias/images/pizza.png)
+  ![Première étape](./medias/pizza.png)
 
 - Le montant au bout de la ligne se met à jour quand on clique sur les + et -
 

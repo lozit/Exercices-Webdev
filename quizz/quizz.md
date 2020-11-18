@@ -8,7 +8,7 @@ Voici un exercice pour pratiquer le javascript et la manipulation du DOM.
 
 - Je voudrais avoir des lettres A - B - C à la place des puces. Quand on clique sur le texte de la réponse ou de la lettre, la lettre sera mis en couleur. Par exemple comme ceci :
 
-  ![Première étape](./medias/images/quizz_bouton.png)
+  ![Première étape](./medias/quizz_bouton.png)
 
 - Une fois que votre HTML + CSS est terminé, on rajoute le javascript.
 

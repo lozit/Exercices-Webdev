@@ -1,6 +1,10 @@
+# Introduction à scrollmagic
+
 Voici un exercice pour pratiquer autre chose que du onclic.
 
-Nous allons faire un exercice avec ScrollMagic, une librairie qui permet de déclencher des évènements à paretir du scroll.
+Nous allons faire un exercice avec ScrollMagic, une librairie qui permet de déclencher des évènements à partir du scroll.
+
+## Premiers tutos
 
 Aller voir le site ici : https://scrollmagic.io/
 
