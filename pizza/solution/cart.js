@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
   function affichercommande(mesPizzas) {
     let commande = "";
     for (var [key, value] of mesPizzas) {
-      commande += key + " : " + value + " - ";
+      if (value != 0) commande += key + " x " + value + " - ";
     }
     document.querySelector("#description").value = commande.slice(0, -3);
   }
