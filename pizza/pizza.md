@@ -12,3 +12,13 @@ Voici un exercice pour pratiquer le javascript et la manipulation du DOM.
 - Essayez de reproduire la mise en page. Il y a une petite difficulté avec le trait qui n'a pas toujours la même longeur.
 
 - Un bouton "Payer maintenant" apparait lorsque le total est supérieur à 0
+
+# Intégrer Paypal
+
+- Voir le code pour un bouton Paypal ici : https://www.paypal.com/buttons/smart
+
+- Remplacer Le bouton "Payer Maintenant" par le bouton Paypal.
+
+- Le montant total doit être passé à Paypal.
+
+- Paypal demande un champ de description pour pouvoir commander, mettre un récapitulatif de la commande.
