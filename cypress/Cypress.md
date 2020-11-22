@@ -52,3 +52,6 @@ Il existe différents tests :
 6. Dans votre dossier sur votre ordinteur, vous ouvrez le terminal de VSCode et vous tapez : `npm i -D netlify-plugin-cypress` pour installer le plugin Cypress pour Netlify
 7. Sur Netlify, il faut aussi ajouter le plugin à votre site en allant sur Netlify => clic sur votre site => plugins => go to plugins directory => Vous tapez `Cypress` => Install
 8. Maintenant, lorsque vous allez faire un git push avec gitkraken, Netlify va détecter la mise en ligne sur Github, il récupèrera votre code source et lancera les test Cypress avant la mise en ligne. Si les tests échouent, le site ne sera pas mis en ligne.
+
+Pour vous aider : https://github.com/cypress-io/netlify-plugin-cypress#readme
+https://cypress.io/blog/2020/03/30/run-cypress-tests-on-netlify-using-a-single-line/
