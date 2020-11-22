@@ -1,6 +1,6 @@
 describe("Test de l'app de commande de Pizzas", () => {
   it("On accède à la page", () => {
-    cy.visit("https://exercices-webdev-pizza.netlify.app/");
+    cy.visit("/");
   });
   it("On vérifie que le bouton Paypal soit bien caché", () => {
     cy.get("#commande").should("have.css", "display", "none");
