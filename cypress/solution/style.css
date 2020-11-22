@@ -1,0 +1,97 @@
+* {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.page {
+  width: 80%;
+  margin: auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  width: 100%;
+  background-image: url(./ligne.svg);
+  background-repeat: repeat-x;
+  background-position-y: 40%;
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+}
+
+.gauche {
+  background-color: white;
+  padding-right: 10px;
+}
+
+.droite {
+  background-color: white;
+  padding-left: 10px;
+}
+
+.prix {
+  padding-right: 10px;
+}
+
+.totalligne {
+  padding-left: 10px;
+  width: 30px;
+  display: inline-block;
+  text-align: right;
+}
+
+.qt {
+  background-color: lightskyblue;
+  padding: 5px;
+  width: 30px;
+  display: inline-block;
+  text-align: center;
+}
+
+.plus,
+.moins {
+  font-weight: bold;
+  font-size: large;
+  cursor: pointer;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  user-select: none;
+}
+
+.plus:hover,
+.moins:hover {
+  color: rgb(102, 102, 102);
+}
+
+#commande {
+  display: none;
+  padding-left: 40px;
+}
+
+#description {
+  width: 80%;
+}
+
+#amount {
+  text-align: right;
+}
+
+input {
+  user-select: none;
+  border: 0;
+}
+
+h1 {
+  padding: 40px;
+}
+
+h1,
+h1 a {
+  font-size: 24px;
+  color: black;
+}
