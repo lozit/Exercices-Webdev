@@ -1,0 +1,108 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #fff;
+  font-family: "Raleway", sans-serif;
+}
+
+.page {
+  background-color: rgba(234, 231, 225, 0.5);
+  display: flex;
+  flex-wrap: wrap;
+  width: 90vw;
+  margin: 5vw auto;
+}
+
+.gauche {
+  width: 60%;
+}
+
+.droite {
+  width: 40%;
+  padding: 5vw;
+}
+
+@media screen and (max-width: 900px) {
+  .gauche {
+    width: 100%;
+  }
+  .droite {
+    width: 100%;
+    padding: 5vw;
+  }
+}
+
+.gauche img {
+  width: 100%;
+  height: auto;
+}
+
+.droite p {
+  font-size: 1em;
+  line-height: 2em;
+}
+
+.artiste {
+  font-size: 0.7em;
+  padding-bottom: 4em;
+}
+
+.droite h1 {
+  font-family: "Lora", serif;
+  font-size: 4em;
+  padding-bottom: 1em;
+  font-style: italic;
+}
+
+nav {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #333;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.1s ease-out;
+}
+
+.menu_ouvert nav {
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s, opacity 0.1s ease-out;
+}
+
+nav a {
+  color: #eee;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #333;
+}
+
+nav a,
+.menu {
+  text-decoration: none;
+  padding: 10px;
+  font-size: 18px;
+}
+
+nav .fermer,
+.menu {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+}
