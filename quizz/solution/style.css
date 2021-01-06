@@ -1,0 +1,57 @@
+body {
+  background-color: #eee;
+  padding: 60px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin: 15px;
+}
+
+label {
+  display: flex;
+  align-items: center;
+}
+
+li span {
+  background-color: lightgrey;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 3px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+input {
+  display: none;
+}
+
+input[type="radio"]:checked + label span {
+  background-color: lightblue;
+}
+
+.juste + label span {
+  background-color: green !important;
+  color: white;
+}
+
+.juste + label {
+  color: green;
+}
+
+.faux + label span {
+  background-color: red !important;
+  color: white;
+}
+
+.faux + label {
+  color: red;
+  text-decoration: line-through;
+}
