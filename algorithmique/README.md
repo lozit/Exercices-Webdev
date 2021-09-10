@@ -28,6 +28,8 @@ _Ces exercices sont à faire sur Algobox._
 
 6. Faire un algorithme qui permet de compter le nombre de voyelles dans une phrase saisie par l'utilisateur. Le traitement sera fait à l'aide d'une fonction qui compte les voyelles. [^6]
 
+7. Faire un algorithme qui permet de calculer la moyenne des notes des étudiants d'une classe. Le nombre d'étudiants n'est pas connu d'avance. On saisi donc des notes et on mets -1 pour terminer la saisie. Les notes doivent être comprises entre 0 et 20. Utilisez une fonction qui prend une liste de notes et qui retourne la moyenne.
+
 
 [^1]: Correction : [exercice1.alg](./exercice1.alg)
 [^2]: Correction : [exercice2.alg](./exercice2.alg)

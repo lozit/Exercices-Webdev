@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Algo>
+    <description texte="On passe le code en fonction" courant="APPELER_FONCTION creerTableauNotes()"/>
+    <extension extnom="inactif"/>
+    <fonction fctcode="" fctetat="inactif"/>
+    <F2 F2lignes="" F2etat="inactif" F2defaut="" F2para=""/>
+    <repere repetat="inactif" repcode="-10#10#-10#10#2#2"/>
+    <param maxBoucle="500000" epaisseurLigne="2" nbDecimales="8" totalBoucles="5000000" epaisseurPoint="2" totalAffichages="1000" arrondiAuto="vrai"/>
+    <item algoitem="FONCTIONS_UTILISEES" code="200#declarationfonctions">
+        <item algoitem="FONCTION creerTableauNotes( )" code="201#creerTableauNotes# ">
+            <item algoitem="VARIABLES_FONCTION" code="202#declarationsvariablesfonction"/>
+            <item algoitem="DEBUT_FONCTION" code="203#debutfonction"/>
+            <item algoitem="nb_notes PREND_LA_VALEUR ALGOBOX_ALEA_ENT(10,30)" code="5#nb_notes#ALGOBOX_ALEA_ENT(10,30)#pasliste"/>
+            <item algoitem="POUR i ALLANT_DE 0 A nb_notes -1" code="12#i#0#nb_notes -1">
+                <item algoitem="DEBUT_POUR" code="13#debutpour"/>
+                <item algoitem="notes[i] PREND_LA_VALEUR ALGOBOX_ALEA_ENT(0,20)" code="5#notes#ALGOBOX_ALEA_ENT(0,20)#i"/>
+                <item algoitem="FIN_POUR" code="14#finpour"/>
+            </item>
+            <item algoitem="FIN_FONCTION" code="204#finfonction"/>
+        </item>
+    </item>
+    <item algoitem="VARIABLES" code="100#declarationsvariables">
+        <item algoitem="notes EST_DU_TYPE LISTE" code="1#LISTE#notes"/>
+        <item algoitem="nb_notes EST_DU_TYPE NOMBRE" code="1#NOMBRE#nb_notes"/>
+        <item algoitem="i EST_DU_TYPE NOMBRE" code="1#NOMBRE#i"/>
+        <item algoitem="mes_notes EST_DU_TYPE LISTE" code="1#LISTE#mes_notes"/>
+        <item algoitem="longeur EST_DU_TYPE NOMBRE" code="1#NOMBRE#longeur"/>
+    </item>
+    <item algoitem="DEBUT_ALGORITHME" code="101#debutalgo">
+        <item algoitem="APPELER_FONCTION creerTableauNotes()" code="206#creerTableauNotes()"/>
+    </item>
+    <item algoitem="FIN_ALGORITHME" code="102#finalgo"/>
+</Algo>
