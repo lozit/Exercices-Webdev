@@ -9,9 +9,6 @@ Cela peut-être votre adresse personnelle ou vous pouvez créer un email spécif
 Si vous décidez de créer une adresse spécifique, choisissez quelque chose de sobre et professionel comme `votre_prenom.votre_nom@....`
 Vous pouvez créer cette adresse sur des services connus comme gmail ou yahoo, mais je vous conseille un service respectueux de la vie privée comme [Protonmail](https://protonmail.com/)
 
-**Consignes** :
-
-- Une fois votre email choisi et éventuellement créé, envoyez-nous par mail : Nom + Prénom + Numéro de telephone + adresse email sur les adresses suivantes : guillaume.ferrari@protonmail.com et johannie.riehl@protonmail.com
 
 ## Navigateurs
 
@@ -45,7 +42,7 @@ Vous pouvez utiliser d'autres navigateurs pour surfer sur le web, mais nous util
 - Installez les extensions suivantes sur Chrome :
 
   - [Web Developer](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm?hl=fr)
-  - [Clean guru](https://chrome.google.com/webstore/detail/clean-guru-cache-history/njjijbcogjkninkeeobbbkcbiblpjafa/related?hl=fr)
+  - [Nettoyer tout - Nettoyeur d'historique et de cache](https://chrome.google.com/webstore/detail/clean-all-history-cache-c/elidgjfpciimeeeoeneeiifkmhadhkeh)
   - Facultatif, mais fortement conseillé : [Ublock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=fr)
 
 - Désactiver le cache avec l'inspecteur.
@@ -64,7 +61,7 @@ Vous pouvez utiliser d'autres navigateurs pour surfer sur le web, mais nous util
 
 - Mettez Firefox comme navigateur par défaut : https://www.mozilla.org/fr/firefox/set-as-default/
 
-- Facultatif : vous pouvez synchroniser votre hitorique et vos bookmark en créant un compte Firefox / Google
+- Facultatif : vous pouvez synchroniser votre historique et vos bookmark en créant un compte Firefox / Google
   - sur Firefox : https://www.mozilla.org/fr/firefox/sync/
   - sur Chrome : https://support.google.com/chrome/answer/185277?co=GENIE.Platform%3DDesktop&hl=fr
 
@@ -102,7 +99,7 @@ Nous avons choisi un autre logiciel, [Discord](https://discord.com/) pour plusie
 **Consignes** :
 
 - Installez Discord sur votre ordinateur, ne passez pas par la version en ligne dans votre navigateur
-- Rejoignez le groupe Discord en cliquant sur ce lien : https://discord.gg/43CBtHVJ
+- Rejoignez le groupe Discord en suivant le lien que l'on vous a envoyé par mail (si ce n'est pas le cas, demandez le)
 - Utilisez un pseudo permettant de vous reconnaitre : votre prenom et votre nom
 
 ## Editeurs de code
