@@ -26,11 +26,11 @@ _Ces exercices sont à faire sur Algobox._
 
 2. Ecrire un algorithme qui vous demande d'entrer une phrase et qui affiche cette phrase à l’envers.
 
-3. Ecrire un algorithme qui vous demande d'entrer une suite de nombre (il vous les demande un par un) et qui vous affiche ensuite le plus petit nombre, le plus grand nombre et la moyenne de la suite. Vous utiliserez les fonctions ALGOBOX_MOYENNE ALGOBOX_MINIMUM et ALGOBOX_MAXIMUM ([voir ici](https://www.xm1math.net/algobox/doc.html#SECTION31))
+3. Ecrire un algorithme qui vous demande d'entrer une suite de nombre (il vous les demande un par un, l'utilisateur termine la phase de saisie en entrant la valeur zéro) et qui vous affiche ensuite le plus petit nombre, le plus grand nombre, la somme et la moyenne de la suite. Vous utiliserez les fonctions ALGOBOX_SOMME, ALGOBOX_MOYENNE, ALGOBOX_MINIMUM et ALGOBOX_MAXIMUM ([voir ici](https://www.xm1math.net/algobox/doc.html#SECTION31))
 
 4. Écrire un algorithme qui permet de recherche un élément dans un tableau d'entiers. Le tableau est entré dans l'algo. On demande de saisir un nombre et l'algo renvoie 0 si le nombre n'est pas dans le tableau et renvoie sa position si le nombre est dans le tableau.
 
-5. Faire l'exercice 3 sans utiliser les fonctions ALGOBOX_MOYENNE ALGOBOX_MINIMUM et ALGOBOX_MAXIMUM
+5. Faire l'exercice 3 sans utiliser les fonctions ALGOBOX_SOMME, ALGOBOX_MOYENNE ALGOBOX_MINIMUM et ALGOBOX_MAXIMUM
 
 6. Faire un algorithme qui permet de compter le nombre de voyelles dans une phrase saisie par l'utilisateur. Le traitement sera fait à l'aide d'une fonction qui compte les voyelles.
 
