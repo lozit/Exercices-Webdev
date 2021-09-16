@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let nb=+prompt("Nb de Notes :")
+        let notes = new Array(nb);
+        let somme=0;
+        let i=0;
+        for(i=0;i<=nb-1;i++)
+        {
+            note=+prompt("Entrez la note :");
+            notes[i]=note;
+            somme+=notes[i];
+        }
+
+        console.log(notes);
+        let moyenne=(somme/nb);
+        let min = Math.min(...notes);
+        let max = Math.max(...notes);
+        console.log("La moyenne des notes est : " + moyenne);
+        console.log("La plus petite valeur est : " + min);
+        console.log("La plus grande valeur est : "+ max);
+        console.log("La somme est de : "+ somme);
+    
+      </script>
+    </body>
+    </html>
