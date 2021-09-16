@@ -19,6 +19,8 @@ Nous utilisons le logiciel [Algobox](https://www.xm1math.net/algobox/) pour fair
 
 4. Formation Algobox en video : https://www.youtube.com/watch?v=rdd8_RzhLc4&list=PLlYK3yHQBNlRs5GjASgcu6pgsy9OJxlqn
 
+5. Cours et exercices : http://www.france-ioi.org/algo/chapters.php?progression=1
+
 ## Exercices
 _Ces exercices sont à faire sur Algobox._
 
