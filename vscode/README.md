@@ -8,7 +8,15 @@
 
 - [Aides, Extensions etc.](https://github.com/alsacreations/guidelines/blob/master/Guidelines-VScode.md)
 
-## ESlint (vérification syntaxe JavaScript)
+## Les extensions à installer
+
+- **Project Manager** (Bookmark de projets)
+- **ESLint** (vérification syntaxe JavaScript)
+- **Stylelint** (vérifie la syntaxe CSS d'après un ensemble de règles)
+- **Error Lens** (affiche les erreurs des linters directement dans la fenêtre de code)
+- **Beautify** (remise en forme, à la demande, d'un code mal indenté/formaté)
+
+## Extension ESlint (vérification syntaxe JavaScript)
 
 - Installer le plugin ESLint
 - Installer ESLint sur votre machine : `npm install -g eslint`
@@ -33,10 +41,7 @@
 }
 ```
 
-## Les extensions à installer
+## Extension htmlhint
 
-- **Project Manager** (Bookmark de projets)
-- **ESLint** (vérification syntaxe JavaScript)
-- **Stylelint** (vérifie la syntaxe CSS d'après un ensemble de règles)
-- **Error Lens** (affiche les erreurs des linters directement dans la fenêtre de code)
-- **Beautify** (remise en forme, à la demande, d'un code mal indenté/formaté)
+- Intaller l'extension **HTMLHint**
+- `npm install --global htmlhint`
