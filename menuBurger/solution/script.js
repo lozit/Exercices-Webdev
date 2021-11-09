@@ -1,12 +1,12 @@
 document.addEventListener("DOMContentLoaded", function () {
-  let menu = document.querySelector(".menu");
-  let fermer = document.querySelector(".fermer");
-  let container = document.querySelector(".container");
-  menu.addEventListener("click", function (e) {
+  const menu = document.querySelector(".menu");
+  const container = document.querySelector(".container");
+  const fermer = document.querySelector(".fermer");
+  menu.addEventListener("click", (e) => {
     e.preventDefault();
     container.classList.add("menu_ouvert");
   });
-  fermer.addEventListener("click", function (e) {
+  fermer.addEventListener("click", (e) => {
     e.preventDefault();
     container.classList.remove("menu_ouvert");
   });
