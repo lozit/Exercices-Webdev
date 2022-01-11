@@ -20,7 +20,7 @@ Nous voulons créer un logiciel de gestion de notre bibliothèque. L'application
 
 - La cotisation annuelle est de 10€.
 
-- Un code emplacement composé d'une lettre et d'un chiffre permet de savoir où se trouve un livre. Les étagères sont identifiées par une lettre. Les étagères ont des numéros (1 => étagère du haut).
+- Un code emplacement composé d'une lettre et d'un chiffre permet de savoir où se trouve un livre. Les bibliothèques sont identifiées par une lettre. Les étagères ont des numéros (1 => étagère du haut).
 
 ## L'application
 
