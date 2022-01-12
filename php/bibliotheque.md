@@ -16,6 +16,8 @@ Nous voulons créer un logiciel de gestion de notre bibliothèque. L'application
 
 - Un inscrit peut emprunter jusqu'à 5 livres en même temps. Pour chaque emprunt, on connaît la date d'emprunt.
 
+- Un emprunt dure 14 jours renouvelable une fois.
+
 - Un inscrit est abonné à la bibliothèque pour la période en cours (du 1er septembre au 30 août).
 
 - La cotisation annuelle est de 10€.
