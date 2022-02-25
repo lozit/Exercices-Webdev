@@ -1,4 +1,4 @@
-# Découvrir les métiers de Designer Web
+# Découvrir les métiers de Designer et de Développeur
 
 Tableau à remplir en recherchant des informations sur le net, en appelant des freelances, des agences , et commençants. Analyser et chercher des entreprises qui plaisent ou qui attirent pour comprendre le terrain !
 
@@ -31,4 +31,4 @@ Interviewez quelqu'un qui exerce le métier que vous voulez faire !
 
 Soyez curieux, vous pouvez poser plus de questions si la personne que vous avez au téléphone est coopérative.
 
-Vous pouvez télécharger un template word ici : https://drive.google.com/file/d/1zl7lKH7iFwmcN14DkH-X90URuhXe0Scr/view?usp=sharing
+Vous pouvez télécharger un template word ici : <https://drive.google.com/file/d/1zl7lKH7iFwmcN14DkH-X90URuhXe0Scr/view?usp=sharing>
