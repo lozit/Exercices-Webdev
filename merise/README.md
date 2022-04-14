@@ -4,17 +4,14 @@ Voici un exercice pour pratiquer la conception de bases de données relationnell
 
 Vous pouvez lire le powerpoint du cours [powerpoint du cours](merise.pdf)
 
-Par raport à l'application que vous voulez réaliser pour votre certification :
+1. Faire l'exercice de la [bibliotheque](./bibliotheque.md)
 
-- Écrivez un résumé de votre application si ça n'est pas déjà fait
-
-- Écrivez les règles de gestion métier de votre application
-
-- Réalisez votre dictionnaire de données
-
-- Ecrivez ls dépendances fonctionnelles
-
-- Dessinez votre MCD
+2. Par raport à l'application que vous voulez réaliser pour votre certification :
+   - Écrivez un résumé de votre application si ça n'est pas déjà fait
+   - Écrivez les règles de gestion métier de votre application
+   - Réalisez votre dictionnaire de données
+   - Ecrivez ls dépendances fonctionnelles
+   - Dessinez votre MCD
 
 Vous pouvez utiliser l'outil suivant : https://app.diagrams.net/
 
