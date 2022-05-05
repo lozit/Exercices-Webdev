@@ -1,44 +1,45 @@
-# PHP - exercices création d'une petite application de type CRUD
+# Exercices de création d'une application de gestion de bibliothèque
 
 ## L'application
 
-Nous voulons créer un logiciel de gestion de notre bibliothèque. L'application servira à gérer les inscriptions, faire le suivi des emprunts de livres, donner des informations sur les livres.
+Nous voulons créer un logiciel de gestion de notre bibliothèque. L'application servira à gérer les inscriptions, faire le suivi des emprunts de livres, donner des informations sur les livres (voir [exercice merise](../merise/bibliotheque.md)).
 
-## Les règles de gestion métier
+Nous allons effectuer une série d'exercices qui vont nous emmener progressivement vers la réalisation de cette application.
+Nous allons aborder les thèmes suivants :
 
-- Pour chaque livre, on doit connaître le titre, l'année de parution, un résumé, le type (roman, poésie, science-fiction...), l'endroit où il est rangé dans la bibliothèque et le nombre d'exemplaires dans la bibliothèque.
+- La connexion à la base de données avec PDO
+- La POO (programmation orientée objet)
+- Le CRUD (Create Read Update Delete)
+- le MVC (Modele Vue Controlleur)
 
-- Un livre peut être rédigé par aucun (dans le cas d'une œuvre anonyme), un ou plusieurs auteurs dont on connaît le nom, le prénom, la date de naissance et le pays d'origine
+## Exercices
 
-- Chaque exemplaire d'un livre est identifié par une référence composée de lettres et de chiffres.
+### Exercice 1 - Classe Formulaire
 
-- Un inscrit est identifié par un numéro et on doit mémoriser son nom, prénom, adresse, téléphone et adresse e-mail.
+- Créez une classe **formulaire** pour créer des formulaire. Utilisez votre [classe formulaire](./objets.md) créée précédament. Ajoutez-y un attribut pour définir si un champs est obligatoire ou pas.
 
-- Un inscrit peut emprunter jusqu'à 5 livres en même temps. Pour chaque emprunt, on connaît la date d'emprunt.
+### Exercice 2 - Table Livre
 
-- Un emprunt dure 14 jours renouvelable une fois.
+- Créer une table **livre** avec les informations suivantes : Titre du livre, Auteur, résumé du livre, URL photo, date de parution,Nombre d'exemplaires dans la bibliothèque, nombre d'exemplaires restants, le code emplacement (alpha-numérique de 6 caractères).
+- En utilisant PDO (pour vous aider : https://phpdelusions.net/pdo/), et votre classe formulaire, créez un formulaire pour insérer les données dans la base.
+- Le titre, L'auteur, la date de parution, le nombre d'exemplaires dans la bibliothèque et le code emplacement sont obligatoires.
+- Affichez tous les livres de la bibliotheque.
 
-- Un inscrit est abonné à la bibliothèque pour la période en cours (du 1er septembre au 30 août).
+### Exercice 3 - Classe Livre
 
-- La cotisation annuelle est de 10€.
+Créer une classe **Livre** avec :
 
-- Un code emplacement composé d'une lettre et d'un chiffre permet de savoir où se trouve un livre. Les bibliothèques sont identifiées par une lettre. Les étagères ont des numéros (1 => étagère du haut).
+- Les propriétés correspondantes à la table livre
+- Une méthode enregistrer() qui va enregistrer le livre dans la base de données.
+- lire($id) qui va chercher les données du livre qui a id = $id et qui met à jour toutes les propriétés de l'instance
 
-## L'application
+```
+$monlivre = lire(2) // pour charger les données du livre dont l'id=2
+$montitre = $monlivre->titre; // Pour afficher le titre du livre
+```
 
-- Une page qui liste les livres de la bibliothèque dans un grand tableau avec : Nom du livre, Auteur, Nombre d'exemplaire dans la bibliothèque, nombre de livre restant (ex : 0/1 pour dire un exemplaire déjà prêté), le code emplacement.
-Au bout de chaque ligne, deux liens : un pour effacer le livre, l'autre pour le modifier.
-En cliquant sur le nom du livre on arrive sur la fiche du livre.
-On affiche 20 livres par page. Il y a un système pour afficher la suite des livres.
-Un moteur de recherche permet de filtrer les livres.
+-
 
-- Une page "fiche livre" avec toutes les informations sur le livre et l'auteur, ainsi que l'historique des emprunts.
+### Exercice ? - API
 
-- Une page qui liste tous les inscrits dans un grand tableau avec comme information : Nom, prénom, actif/inactif (payé ou pas), nombre de livre emprunté en ce moment, nom total de livres empruntés, en retard ou pas pour rendre un livre  (oui/non).
-Le nom est cliquable pour aller sur la page de la personne.
-
-- Une page "personne" qui affiche les infos de la personne et qui permet de saisir les nouveau emprunts et les retours.
-
-## Consignes
-
-- Dans un premier temps, faire uniquement la page qui liste les livres. Cette page est très complète car elle aborde toutes les difficultés de l'application : récupération de données, moteur de recherche, pagination etc.
+On pourrait remplir la BDD avec les données de l'API du NY Times : https://www.youtube.com/watch?v=1O496C-79Pg
