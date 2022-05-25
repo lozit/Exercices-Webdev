@@ -1,10 +1,10 @@
 Voici un exercice pour pratiquer le HTML, le CSS, les animations et le javascript.
 
-Si vous ne l'aviez pas encore fait, créez un compte sur codepen : https://codepen.io/
+Si vous ne l'aviez pas encore fait, créez un compte sur codepen : <https://codepen.io/>
 
 # Exercice: créer un Menu Burger
 
-- Allez sur ce pen : https://codepen.io/guillaumeferrari/pen/ExyWZMW
+- Allez sur ce pen : <https://codepen.io/guillaumeferrari/pen/ExyWZMW>
 
 ![Départ](./medias/menuBurger_start.png)
 
@@ -34,6 +34,6 @@ Vous devez avoir quelque chose comme ça :
 
 - En javascript, faire en sorte que lorsque l'on clique sur `MENU`, la classe `menu_ouvert` soit ajoutée sur `div.container` et lorsque l'on clique sur `FERMER` la classe `menu_ouvert` soit supprimée de `div.container`.
 
-- Après cette étape vous devriez avoir un menu burger fonctionnel. Nous allons maintenant juste rajouter une animation de fondu lorsqu'on affiche ou ferme le menu. Pour que cela fonctionne, vous ne devez pas utiliser `display: none` pour cacher le menu, mais une combinaison de `visibility: hidden;` et `opacity: 0;`
+- Optionnel : Après cette étape vous devriez avoir un menu burger fonctionnel. Nous allons maintenant juste rajouter une animation de fondu lorsqu'on affiche ou ferme le menu. Pour que cela fonctionne, vous ne devez pas utiliser `display: none` pour cacher le menu, mais une combinaison de `visibility: hidden;` et `opacity: 0;`
 
-- Une fois cet exercice terminé, vous pouver le refaire en changeant la manière dont s'affiche le menu. Au lieu d'avoir un menu qui s'affiche par dessus la page, faite un menu qui apparait en glissant de la droite comme sur le site suivant : https://wepresent.wetransfer.com/
+- Optionnel : Une fois cet exercice terminé, vous pouver le refaire en changeant la manière dont s'affiche le menu. Au lieu d'avoir un menu qui s'affiche par dessus la page, faite un menu qui apparait en glissant de la droite.
