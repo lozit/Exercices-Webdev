@@ -15,6 +15,7 @@
 - **Stylelint** (vérifie la syntaxe CSS d'après un ensemble de règles)
 - **Error Lens** (affiche les erreurs des linters directement dans la fenêtre de code)
 - **Beautify** (remise en forme, à la demande, d'un code mal indenté/formaté)
+- **Live Server** (Votre navigateur se recharge tout seul quand vous modifiez vos fichiers)
 
 ## Extension ESlint (vérification syntaxe JavaScript)
 
@@ -29,7 +30,7 @@
 {
   "env": {
     "browser": true,
-    "es2021":true
+    "es2021": true
   },
   "parserOptions": {
     "ecmaVersion": 2018,
