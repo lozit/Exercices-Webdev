@@ -6,23 +6,24 @@ Nous voulons créer un logiciel de gestion de notre bibliothèque. L'application
 
 ## Les règles de gestion métier
 
-- Pour chaque livre, on doit connaître le titre, l'année de parution, un résumé, le type (roman, poésie, science-fiction...), l'endroit où il est rangé dans la bibliothèque et le nombre d'exemplaires dans la bibliothèque.
+- Pour chaque livre, on doit connaître le titre, l'année de parution, un résumé, le type, la cote, l'auteur et le nombre d'exemplaires dans la bibliothèque.
 
-- Un livre peut être rédigé par aucun (dans le cas d'une œuvre anonyme), un ou plusieurs auteurs dont on connaît le nom, le prénom, la date de naissance et le pays d'origine
+- Pour savoir où le livre est rangé, on y assigne une [cote](https://www.enssib.fr/services-et-ressources/questions-reponses/quest-ce-quune-cote-en-bibliotheque). La cote choisie est la suivante :  2 lettres (RP pour roman policier) + indice Dewey raccourci (843) + 3 lettres du nom de l’auteur.
+Exemple : RP843DAN
 
-- Chaque exemplaire d'un livre est identifié par une référence composée de lettres et de chiffres.
+- On utilise la [Classification décimale de Dewey](https://fr.wikipedia.org/wiki/Classification_d%C3%A9cimale_de_Dewey) pour le type de livre.
+
+- Un livre peut être rédigé par aucun (dans le cas d'une œuvre anonyme), un ou plusieurs auteurs dont on connaît le nom, le prénom, la date de naissance, le pays d'origine et une biographie.
 
 - Un inscrit est identifié par un numéro et on doit mémoriser son nom, prénom, adresse, téléphone et adresse e-mail.
 
-- Un inscrit peut emprunter jusqu'à 5 livres en même temps. Pour chaque emprunt, on connaît la date d'emprunt.
+- Un inscrit peut emprunter jusqu'à 5 livres en même temps.
 
 - Un emprunt dure 14 jours renouvelable une fois.
 
 - Un inscrit est abonné à la bibliothèque pour la période en cours (du 1er septembre au 30 août).
 
 - La cotisation annuelle est de 10€.
-
-- Un code emplacement composé d'une lettre et d'un chiffre permet de savoir où se trouve un livre. Les bibliothèques sont identifiées par une lettre. Les étagères ont des numéros (1 => étagère du haut).
 
 ## L'application
 
