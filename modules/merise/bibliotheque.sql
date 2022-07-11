@@ -32,7 +32,8 @@ CREATE TABLE `Auteurs` (
   `nom` varchar(45) NOT NULL,
   `id_pays` int(11) NOT NULL,
   `prenom` varchar(45) NOT NULL,
-  `date_naissance` date NOT NULL
+  `date_naissance` date NOT NULL,
+  `biographie` text NOT NULL,
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
@@ -94,7 +95,7 @@ CREATE TABLE `Livres` (
   `id_type` int(11) NOT NULL,
   `annee_parution` int(11) NOT NULL,
   `resume` longtext NOT NULL,
-  `emplacement` varchar(45) NOT NULL,
+  `cote` varchar(8) NOT NULL,
   `nb_exemplaire` int(11) NOT NULL,
   `reference` varchar(45) NOT NULL,
   `exemplaires_dispo` int(11) NOT NULL
@@ -130,6 +131,8 @@ CREATE TABLE `Pays` (
 
 CREATE TABLE `Types` (
   `id_type` int(11) NOT NULL,
+  -- exemple dewey longeur max : 944.081 6
+  `dewey` varchar(9) DEFAULT NULL
   `type` varchar(45) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
