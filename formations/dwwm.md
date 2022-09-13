@@ -22,7 +22,7 @@ Cette arborescence est provisoire et sera enrichie au fur et à mesure.
 Pour le moment, ces modules sont écrit :
 
 - [Installation](../modules/Installation/README.md)
-- [Installation pour les développeurs](../modules/InstallationDeveloppeur/README.md)
+- [Installation pour les développeurs](../Modules/Installation/DWWM.md)
 - [Veille technologique](../modules/Veille/README.md)
 - [Algorithmique](../modules/algorithmique/README.md)
 - [HTML/CSS](../modules/html/README.md)

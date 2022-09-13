@@ -44,9 +44,9 @@ Nous allons installer [Xubuntu](https://fr.wikipedia.org/wiki/Xubuntu) qui est u
 
 Ubuntu est une distribution simple à installer et à utiliser. Xubuntu est une "version" plus légère qu'Ubuntu, ce qui dans le cas d'une VirtualBox nous arrange.
 
-- Installer VirtualBox : https://www.virtualbox.org/wiki/Downloads
-- Télécharger Xubuntu : https://xubuntu.org/download/
-- Créer une VirtualBox : https://www.youtube.com/watch?v=8dNq63BXenY
+- Installer VirtualBox : <https://www.virtualbox.org/wiki/Downloads>
+- Télécharger Xubuntu : <https://xubuntu.org/download/>
+- Créer une VirtualBox : <https://www.youtube.com/watch?v=8dNq63BXenY>
   Le tuto explique comment faire avec Ubuntu, on fera la même chose sauf qu'on utilisera l'image de Xubuntu qu'on a déjà téléchargée.
 - Dans la vidéo, il montre comment augmenter le nombre de coeur de CPU dans la configuration. Profitez-en pour augmenter la mémoire vidéo dans la partie Ecran et d'ajouter un ecran supplémentaire si vous utilisez deux écran.
 - Mettez toujours le maximum de ressource tout en restant dans le vert.
@@ -63,12 +63,12 @@ Blink : Google Chrome, Microsoft Edge, Opera, Vivaldi, Brave etc.
 Gecko : Mozilla Firefox
 
 Idéalement, il faudrait tester son travail sur les trois plateformes, ce qui impliquerait d'utiliser un mac.
-Mais aujourd'hui, les trois moteurs sont très similaire car ils sont de plus en plus conforme avec les recommandations du WaSP : https://fr.wikipedia.org/wiki/Web_Standards_Project
+Mais aujourd'hui, les trois moteurs sont très similaire car ils sont de plus en plus conforme avec les recommandations du WaSP : <https://fr.wikipedia.org/wiki/Web_Standards_Project>
 
 Nous allons tout de même utiliser deux navigateurs, dans leur version pour développeur :
 
-- Firefox Quantum Déveloper Edition : https://www.mozilla.org/fr/firefox/79.0a2/firstrun/#
-- Google Chrome Canary : https://www.google.com/chrome/canary/
+- Firefox Quantum Déveloper Edition : <https://www.mozilla.org/fr/firefox/79.0a2/firstrun/>#
+- Google Chrome Canary : <https://www.google.com/chrome/canary/>
 
 Vous pouvez utiliser d'autres navigateurs pour surfer sur le web, mais nous utiliserons ceux là, et plus particulièrement Firefox pour le développement web par rapport à ses outils dédiés qui sont intéressants.
 
@@ -103,11 +103,11 @@ Vous pouvez utiliser d'autres navigateurs pour surfer sur le web, mais nous util
   - Sur le panel du bas, cliquer en haut à droite sur la roue crantée
   - Dans Network, cocher la case : "Disable cache (while DevTool is open)
 
-- Mettez Firefox comme navigateur par défaut : https://www.mozilla.org/fr/firefox/set-as-default/
+- Mettez Firefox comme navigateur par défaut : <https://www.mozilla.org/fr/firefox/set-as-default/>
 
 - Facultatif : vous pouvez synchroniser votre historique et vos bookmark en créant un compte Firefox / Google
-  - sur Firefox : https://www.mozilla.org/fr/firefox/sync/
-  - sur Chrome : https://support.google.com/chrome/answer/185277?co=GENIE.Platform%3DDesktop&hl=fr
+  - sur Firefox : <https://www.mozilla.org/fr/firefox/sync/>
+  - sur Chrome : <https://support.google.com/chrome/answer/185277?co=GENIE.Platform%3DDesktop&hl=fr>
 
 ## Editeurs de code
 
