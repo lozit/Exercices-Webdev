@@ -25,6 +25,18 @@ Le site [Symfony Cast](https://symfonycasts.com/) a beaucoup de ressources sur S
 
 La communauté sur [Reddit](https://www.reddit.com/r/symfony/), [Github](https://github.com/symfony/symfony/discussions) et [Slack](https://symfony-devs.slack.com/ssb/redirect).
 
+En français, sur le sujet Symfony :
+
+- [YoanDev](https://www.youtube.com/c/yoandevco) (Symfony / Devops)
+- [Les teacher du net](https://www.youtube.com/c/Teachersdunet)
+- [Lior CHAMLA](https://www.youtube.com/c/LiorCHAMLA)
+
+Quelques chaines Youtube interressantes en anglais :
+
+- [Gary Clarke](https://www.youtube.com/c/GaryClarkeTech/videos)
+- [Program With Gio](https://www.youtube.com/c/ProgramWithGio)
+- [Code With Dary](https://www.youtube.com/c/CodeWithDary)
+
 ## Commencer l'apprentissage
 
 Le meilleur moyen de commencer, c'est le book [En route pour Symfony](https://symfony.com/doc/current/the-fast-track/fr/index.html).
