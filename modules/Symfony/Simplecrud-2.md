@@ -15,10 +15,19 @@ Avant de commencer, il est important de comprendre une chose. Ce que nous voyons
 
 Par contre, pour mettre en ligne une démo d'une application, il n'y a pas de soucis.
 
-### Création d'un VPS (a venir)
+### Création d'une clée SSH
 
-=> _On crée une clée SSH_
-=> _On crée une Droplet sur DigitalOcean_
+=> A FAIRE _On crée une clée SSH_
+
+### Création d'une machine virtuelle
+
+Pour heberger notre site, nous allons créer une machine virtuelle sur laquelle nous allons installer tous les composants necessaires à notre site Symfony : serveur web, PHP, Composer, Node.js, Base de données etc.
+
+Nous allons utiliser les services de Nua.ge, une société française qui vous permet, à partir du lien de parrainage suivant, de vous donner 100€ de crédit utilisable à votre guise pour créer des machines virtuelles. Une machine minimale pour faire des tests coûte moins de 10€ par mois, ça vous fait un an de test, ce qui est plutôt sympa !
+
+Vous devrez par contre entrer un numéro de carte bleue pour valider la promo, mais aucun montant ne vous sera prélevé.
+
+C'est par là : [https://nua.ge/referral/LXSARBUC](https://nua.ge/referral/LXSARBUC)
 
 ### Installation de base
 
