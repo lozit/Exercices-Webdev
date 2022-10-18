@@ -56,7 +56,7 @@
 - [Connaître les méthodes de mise en page](http://fr.learnlayout.com/)
 - [CSS Flexbox, le guide complet](https://la-cascade.io/articles/flexbox-guide-complet/)
 - Jeux pour apprendre Flexbox : [Flexbox Froggy](https://flexboxfroggy.com/#fr) et [Flexbox Defence](http://www.flexboxdefense.com/)
-- [CSS Grid Layout, le guide complet](https://la-cascade.io/css-grid-layout-guide-complet/)
+- [CSS Grid Layout, le guide complet](https://la-cascade.io/articles/css-grid-layout-guide-complet)
 - Jeux pour apprendre CSS Grid : [CSS Grid Garden](https://cssgridgarden.com/#fr)
 
 ### Organisation et Nommage des classes
