@@ -29,6 +29,30 @@ Vous devrez par contre entrer un numéro de carte bleue pour valider la promo, m
 
 C'est par là : [https://nua.ge/referral/LXSARBUC](https://nua.ge/referral/LXSARBUC)
 
+Lors de la création de votre première Machine Virtuelle, choisissez un système Debian 11 et mettez tout au minimum. Choisissez l'option **Associer une IP et ouvrir l'accès SSH**.
+
+Cliquez sur **importer une clé**.
+
+Vous devez coller votre clé publique que l'on a créé précédement. Votre clé publique se trouve dans `~/.ssh/` et se termine par `.pub`.
+Vous pouvez faire `cat ~/.ssh/macle.pub` pour afficher votre clé.
+
+Sur votre ordinateur, vous devez lié votre clé SSH à votre instance.
+Editez le fichier `~/.ssh/config pour lui ajouter ceci :
+
+```bash
+# On remplace les xxx par l'adresse ip de votre machine virtuelle
+Host xxx.xxx.xxx.xxx
+  AddKeysToAgent yes
+  UseKeychain no
+  # On remplace maclé par le nom de votre clé privée
+  IdentityFile ~/.ssh/maclé
+
+```
+
+Une fois votre Machine Virtuelle crée, vous pouvez y accéder en faisant la commande `ssh debian@xxx.xxx.xxx.xxx` les xxx étant l'adresse ip publique de votre machine virtuelle.
+
+Comme vous utilisez une clé ssh, aucun mot de passe vous est demandé.
+
 ### Installation de base
 
 On se connecte sur la droplet en SSH.
@@ -36,55 +60,72 @@ Utilisez sudo si vous n'êtes pas root :
 
 ```BASH
 # On mets à jour le système
-apt update && apt upgrade -y 
+sudo apt update && sudo apt upgrade -y 
 
 # On installe le serveur web
-apt-get install -y nginx
+sudo apt-get install -y nginx
 
 # On installe les utilitaires necessaires
-apt-get install -y zip git libzip-dev
-apt-get install -y lsb-release ca-certificates apt-transport-https software-properties-common gnupg2   
-locale-gen en_US.UTF-8
+sudo apt-get install -y zip git libzip-dev
+sudo apt-get install -y lsb-release ca-certificates apt-transport-https software-properties-common gnupg2   
+
+# On configure les locales
+nano /etc/locale.gen
+# On décommente fr_FR.UTF-8 UTF-8 et en_US.UTF-8 UTF-8
+sudo locale-gen
 
 # On rajoute un repository qui va permettre d'installer la dernière version de PHP
-echo "deb https://packages.sury.org/php/ $(lsb_release -sc) main" | tee /etc/apt/sources.list.d/sury-php.list
-wget -qO - https://packages.sury.org/php/apt.gpg | gpg --no-default-keyring --keyring gnupg-ring:/etc/apt/trusted.gpg.d/debian-php-8.gpg --import
-chmod 644 /etc/apt/trusted.gpg.d/debian-php-8.gpg
+echo "deb https://packages.sury.org/php/ $(lsb_release -sc) main" | sudo tee /etc/apt/sources.list.d/sury-php.list
+wget -qO - https://packages.sury.org/php/apt.gpg | sudo gpg --no-default-keyring --keyring gnupg-ring:/etc/apt/trusted.gpg.d/debian-php-8.gpg --import
+sudo chmod 644 /etc/apt/trusted.gpg.d/debian-php-8.gpg
 
 # Après un ajout de repository, on refait une update
-apt update && apt upgrade -y
+sudo apt update && sudo apt upgrade -y
 
 # On installe PHP
-apt-get install -y php8.1
+sudo apt-get install -y php8.1
 
 # On installe les extensions dont on a besoin
-apt-get install -y php8.1-fpm 
-apt-get install -y php8.1-SimpleXML
-apt-get install -y php8.1-mbstring
-apt-get install -y php8.1-intl
-apt-get install -y php8.1-pgsql
+sudo apt-get install -y php8.1-fpm php8.1-SimpleXML php8.1-mbstring php8.1-intl php8.1-pgsql
 
 # On installe composer
 php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
 php -r "if (hash_file('sha384', 'composer-setup.php') === '55ce33d7678c5a611085589f1f3ddf8b3c52d662cd01d4ba75c0ee0459970c2200a51f492d557530c71c15d8dba01eae') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
 php composer-setup.php
 php -r "unlink('composer-setup.php');"
-mv composer.phar /usr/local/bin/composer
+sudo mv composer.phar /usr/local/bin/composer
 
 # On installe la CLI Symfony
 curl -1sLf 'https://dl.cloudsmith.io/public/symfony/stable/setup.deb.sh' | sudo -E bash
-apt-get install -y symfony-cli
+sudo apt-get install -y symfony-cli
 
 # On configure GIT
 git config --global user.email "you@example.com"
 git config --global user.name "Votre Nom"
 
 # On install PostgreSQL
-apt-get install -y postgresql postgresql-contrib
+sudo apt-get install -y postgresql postgresql-contrib
+
+# On installe Node et NPM
+curl -sL https://deb.nodesource.com/setup_16.x -o nodesource_setup.sh 
+sudo bash nodesource_setup.sh 
+sudo apt install nodejs 
 
 ```
 
-On test en tapant l'adresse du droplet dans un navigateur, on doit avoir quelque chose.
+### Activation du firewall
+
+Avant de pouvoir avoir accès à votre serveur depuis un navigateur web, vous devez dire au firewall de Nua.ge d'autoriser le trafic web.
+
+Pour celà, il faut cliquer sur "groupes de sécurité" en bas de page du dashbord de Nua.ge.
+
+Puis `ajouter des instance` sur la ligne `Autoriser tout le trafic web depuis Internet`
+
+Et là vous cliquez sur `Assigner` en face de votre machine virtuelle.
+
+Ouvrez un navigateur et tapez l'adresse ip de votre machine virtuelle dans le navigateur et vous devez avoir une page qui s'affiche (Apache2 Debian Default Page).
+
+### Installer un projet Symfony
 
 Pour installer un site Symfony sur le serveur :
 
@@ -211,6 +252,8 @@ Il ne nous reste plus qu'a redémarrer nginx : `/etc/init.d/nginx restart` et d'
 - PHP : `php -v`
 - Symfony : `symfony -V`
 - Composer : `composer -V`
+- Node.js : `node -v`
+- NPM : `npm -v`
 
 ### Créer un utilisateur et une base de données pour PostgreSQL
 
@@ -285,6 +328,9 @@ Host gitlab.com
   User git
 ```
 
+Il faudra aussi que le dossier /var/www appartienne à l'utilisateur `debian` pour que celà fonctionne puisque votre clé ssh et le fichier config sont liés à cet utilisateur et non pas à `root` :
+`sudo chown -R debian:debian /var/www/`
+
 #### Git clone
 
 Maintenant que tout est prêt, on va pouvoir installer notre application Symfony. Nous allons utiliser GIT pour récupérer les sources. Bien entendu, remplacez dans les commandes suivantes l'adresse du dépot par le votre.
@@ -297,7 +343,7 @@ git clone git@gitlab.com:lozit/simplecrud.git
 cd simplecrud 
 ```
 
-On crée un fichier env.local `nano env.local` dans lequel on mets la connection avec la base de données et dans lequel on dit qu'on est sur une version de production :
+On crée un fichier .env.local `nano .env.local` dans lequel on mets la connection avec la base de données et dans lequel on dit qu'on est sur une version de production :
 
 ```BASH
 APP_ENV=prod
