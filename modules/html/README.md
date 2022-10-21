@@ -54,9 +54,9 @@
 ### La mise en page
 
 - [Connaître les méthodes de mise en page](http://fr.learnlayout.com/)
-- [CSS Flexbox, le guide complet](https://la-cascade.io/flexbox-guide-complet/)
+- [CSS Flexbox, le guide complet](https://la-cascade.io/articles/flexbox-guide-complet)
 - Jeux pour apprendre Flexbox : [Flexbox Froggy](https://flexboxfroggy.com/#fr) et [Flexbox Defence](http://www.flexboxdefense.com/)
-- [CSS Grid Layout, le guide complet](https://la-cascade.io/css-grid-layout-guide-complet/)
+- [CSS Grid Layout, le guide complet](https://la-cascade.io/articles/css-grid-layout-guide-complet/)
 - Jeux pour apprendre CSS Grid : [CSS Grid Garden](https://cssgridgarden.com/#fr)
 
 ### Organisation et Nommage des classes
@@ -84,7 +84,6 @@
 ### SASS
 
 - [Site officiel](https://sass-lang.com/)
-- [Se lancer dans Sass](https://la-cascade.io/se-lancer-dans-sass/)
 - [De CSS à SCSS](https://www.armandphilippot.com/de-css-a-scss/)
 - [5 Reasons to stop using CSS and use SASS](https://www.thebetacoders.com/5-reasons-you-should-stop-using-css-and-use-sass/)
 
