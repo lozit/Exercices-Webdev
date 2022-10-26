@@ -1,6 +1,6 @@
 # Hebergement de site
 
-Nous allons utiliser les services de Nua.ge, une société française qui vous permet, à partir du lien de parrainage suivant, de vous donner 100€ de crédit utilisable à votre guise pour créer des machines virtuelles. Une machine minimale pour faire des tests coûte moins de 10€ par mois, ça vous fait un an de test, ce qui est plutôt sympa !
+Nous allons utiliser les services de Nua.ge, une société française qui vous permet, à partir du lien de parrainage suivant, de vous donner 100€ de crédit utilisable à votre guise pour créer des serveur d'hébergement. Une machine minimale pour faire des tests coûte moins de 10€ par mois, ça vous fait un an d'hébergement, ce qui est plutôt sympa !
 
 Vous devrez par contre entrer un numéro de carte bleue pour valider la promo, mais aucun montant ne vous sera prélevé.
 
