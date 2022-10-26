@@ -40,6 +40,7 @@
 ### CSS
 
 - Les [bonnes pratiques CSS](https://github.com/alsacreations/guidelines/blob/master/Guidelines-CSS.md)
+- [Comment apprendre css](https://la-cascade.io/articles/comment-apprendre-css)
 
 ### Compatibilité des navigateurs
 
@@ -84,7 +85,6 @@
 ### SASS
 
 - [Site officiel](https://sass-lang.com/)
-- [Se lancer dans Sass](https://la-cascade.io/se-lancer-dans-sass/)
 - [De CSS à SCSS](https://www.armandphilippot.com/de-css-a-scss/)
 - [5 Reasons to stop using CSS and use SASS](https://www.thebetacoders.com/5-reasons-you-should-stop-using-css-and-use-sass/)
 
